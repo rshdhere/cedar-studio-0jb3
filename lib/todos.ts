@@ -1,9 +1,6 @@
-export type Todo = {
-  id: string;
-  title: string;
-  done: boolean;
-  createdAt: string;
-};
+import type { Todo } from "@/lib/types";
+
+export type { Todo };
 
 const globalStore = globalThis as typeof globalThis & {
   __cedarTodos?: Todo[];
