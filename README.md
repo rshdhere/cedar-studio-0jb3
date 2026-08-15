@@ -5,13 +5,13 @@ A focused todo list built with Next.js.
 ## Getting started
 
 ```bash
-bun install && bun run build && bun run start
+npm install && npm run build && npm run start
 ```
 
 For local development:
 
 ```bash
-bun install && bun run dev
+npm install && npm run dev
 ```
 
 ## Endpoints
