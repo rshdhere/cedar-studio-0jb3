@@ -2,9 +2,21 @@
   "name": "cedar-studio-0jb3",
   "version": "1.0.0",
   "private": true,
-  "main": "src/index.js",
   "scripts": {
-    "start": "bun src/index.js",
-    "dev": "bun --watch src/index.js"
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.1",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
   }
 }
